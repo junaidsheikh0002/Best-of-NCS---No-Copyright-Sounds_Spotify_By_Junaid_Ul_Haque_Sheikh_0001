@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+nav {
+    background-color: #1DB954;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #282828;
+    padding: 10px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
